@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import "tailwindcss/tailwind.css";
 import card01 from "../assets/images/gallery-01.jpg";
@@ -31,18 +33,19 @@ const Home = () => {
                 </span>
               </h1>
               <p className="text-lg leading-8 text-gray-800 hidden md:block">
-                "Welcome to TripsTravel, your go-to destination for
-                unforgettable adventures! Explore diverse destinations, plan
-                seamlessly, and embark on a journey of a lifetime. Discover
-                handpicked accommodations, connect with like-minded travelers,
-                and create lasting memories. Your next adventure awaits with
+                "Chào mừng đến với TripsTravel, điểm đến lý tưởng cho những
+                cuộc phiêu lưu khó quên! Khám phá nhiều điểm đến đa dạng, lập kế hoạch
+                liền mạch và bắt đầu hành trình đáng nhớ trong đời. Khám phá
+                những nơi lưu trú được lựa chọn kỹ lưỡng, kết nối với những du khách có cùng chí hướng,
+                và tạo nên những kỷ niệm đáng nhớ. Cuộc phiêu lưu tiếp theo của bạn đang chờ đón với
                 TripsTravel!"
               </p>
 
               <p className="mobpara md:hidden ">
-                "Welcome to TripsTravel, your go-to destination for
-                unforgettable adventures! Explore diverse destinations, plan
-                seamlessly, and embark on a journey of a lifetime."
+                "Chào mừng đến với TripsTravel, điểm đến lý tưởng cho những
+                cuộc phiêu lưu khó quên! Khám phá nhiều điểm đến đa dạng, lập kế hoạch
+                eslint-disable-next-line react/no-unescaped-entities
+                liền mạch và bắt đầu hành trình đáng nhớ trong đời."
               </p>
             </div>
           </div>
@@ -74,8 +77,8 @@ const Home = () => {
               </span>
             </h2>
             <p className="para md:text-lg md:leading-8 md:text-start md:text-gray-800">
-              "Empowering Your Journey: Unrivaled Services Tailored to Elevate
-              Your Experience."
+              "Trao quyền cho hành trình của bạn: Dịch vụ vô song được thiết kế riêng để nâng cao
+              Trải nghiệm của bạn."
             </p>
             {/* Add Slider Component or Carousel Component if needed */}
           </div>
@@ -86,25 +89,25 @@ const Home = () => {
       {/* {Gallery Section Start} */}
       <section className="py-8 text-center px-6 md:px-12">
         <h1 className="text-[33px] md:text-[40px] font-cursiveFont font-bold mb-4 text-center">
-          Our{" "}
+          Phòng trưng bày{" "}
           <span className="text-BaseColor text-[40px] font-cursiveFont">
-            Gallery
+            Của chúng tôi
           </span>
         </h1>
         <p className="text-lg leading-8 mb-8 text-gray-800">
-          "Unveil travel wonders in our gallery, a snapshot of TripsTravel's
-          adventures."
+          "Khám phá những điều kỳ diệu của du lịch trong bộ sưu tập của chúng tôi, một bức ảnh chụp nhanh về
+          những cuộc phiêu lưu của TripsTravel."
         </p>
         <ImagesGallery />
       </section>
       {/* {Gallery Section Ends} */}
       <section className="min-h-screen py-8 px-6 md:px-12">
         <h1 className="text-[40px] md:text-[40px] font-cursiveFont font-bold mb-4 text-center text-BaseColor">
-          Featured Tours
+          Chuyến tham quan nổi bật
         </h1>
         <p className="para md:text-lg md:leading-8 md:text-gray-800">
-          "Embark on Unforgettable Journeys: Discover Our Featured Tours, Where
-          Adventure Meets Extraordinary Experiences."
+          "Bắt đầu những chuyến đi khó quên: Khám phá các tour du lịch nổi bật của chúng tôi, nơi
+          Cuộc phiêu lưu gặp gỡ những trải nghiệm phi thường."
         </p>
         <div className="">
           <FeaturedTourList />
@@ -117,14 +120,14 @@ const Home = () => {
         <div className="py-8 px-6 md:px-12">
           <div className="mx-auto text-center xl:w-[470px]">
             <h1 className="text-[33px] md:text-[40px] font-cursiveFont font-bold mb-4 text-center ">
-              Our{" "}
+              Đánh giá {" "}
               <span className="text-BaseColor text-[40px] font-cursiveFont ">
-                Reviews
+                Của chúng tôi
               </span>
             </h1>
             <p className="text-lg font-paraFont font-bold leading-8 mb-8 text-gray-800">
-              "Read what our travelers have to say in their own words. Real
-              stories, real experiences."
+              "Hãy đọc những gì du khách của chúng tôi nói bằng chính lời của họ. 
+              Những câu chuyện có thật, những trải nghiệm có thật."
             </p>
           </div>
           <Testimonials />
@@ -142,7 +145,7 @@ const Home = () => {
 
             <div className="w-full md:w-1/2">
               <h2 className="text-3xl text-BaseColor font-cursiveFont  font-bold text-center">
-                Frequently Asked Question.
+                Câu hỏi thường gặp.
               </h2>
 
               <FaqList />

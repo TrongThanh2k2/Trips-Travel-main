@@ -71,10 +71,10 @@ const Login = () => {
         <div className="flex flex-col justify-center">
           <div className="text-center mb-6">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2">
-              Login
+              Đăng nhập
             </h2>
             <p className="text-sm md:text-base text-gray-500">
-              Enter your credentials to access your account.
+              Nhập thông tin đăng nhập để truy cập tài khoản của bạn.
             </p>
           </div>
 
@@ -102,7 +102,7 @@ const Login = () => {
                 htmlFor="password"
                 className="block text-md md:text-lg font-medium text-gray-600"
               >
-                Password
+                Mật khẩu
               </label>
               <input
                 type="password"
@@ -124,12 +124,12 @@ const Login = () => {
                 {isLoading ? "Logging in..." : "Login"}
               </button>
               <p className="text-sm md:text-base text-center">
-                Don't have an Account?{" "}
+                Bạn chưa có tài khoản?{" "}
                 <Link
                   className="text-BaseColor hover:text-BHoverColor"
                   to="/register"
                 >
-                  Register here
+                  Đăng ký tại đây
                 </Link>
               </p>
             </div>

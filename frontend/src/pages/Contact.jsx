@@ -6,13 +6,13 @@ const Contact = () => {
       <div className="px-4 py-8 md:py-2 m-auto max-w-screen-md">
         <h2 className="heading text-center ">Contact Us</h2>
         <p className="mb-16 lg:mb-10 font-light text-center paragraph">
-          Got any issue? Want to reach us? Let us know.
+          Bạn có vấn đề gì không? Bạn muốn liên hệ với chúng tôi? Hãy cho chúng tôi biết.
         </p>
 
         <form action="#" className="space-y-4">
           <div>
             <label htmlFor="email" className="form_label">
-              Your Email
+              Email của bạn
             </label>
             <input
               type="email"
@@ -23,7 +23,7 @@ const Contact = () => {
           </div>
           <div>
             <label htmlFor="subject" className="form_label">
-              Subject
+              Chủ thể
             </label>
             <input
               type="text"
@@ -34,7 +34,7 @@ const Contact = () => {
           </div>
           <div>
             <label htmlFor="message" className="form_label">
-              Your Message
+              Tin nhắn của bạn
             </label>
             <textarea
               type="text"
